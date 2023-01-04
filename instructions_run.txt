@@ -1,0 +1,7 @@
+
+
+[CRIAR BUILD]
+        g++ [INPUT_FILE].cpp -o my.elf -std=c++11 -Wall -lGL -lGLU -lglut -lGLEW -lglfw -lX11 -lXxf86vm -lXrandr -lpthread -lXi -ldl -lXinerama -lXcursor
+
+[EXECUTAR BUILD]
+        ./my.elf
